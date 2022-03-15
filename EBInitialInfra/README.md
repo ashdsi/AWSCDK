@@ -22,6 +22,6 @@ AWS credentials and AWS region as environment variabes or default profile
 cdk bootstrap aws://<AccountID>/<AWS_DEFAULT_REGION>      (Once per account/region pair)
 
 
-* cdk deploy -c Environment=nonprod -c Stage=dev -c VpcId=<VPC ID> -c Domain=<R53 hosted zone> --require-approval never
-* cdk destroy -c Environment=nonprod -c Stage=dev -c VpcId=<VPC ID> -c Domain=<R53 hosted zone> --force
+* `cdk deploy -c Environment=nonprod -c Stage=dev -c VpcId=<VPC ID> -c Domain=<R53 hosted zone> --require-approval never`
+* `cdk destroy -c Environment=nonprod -c Stage=dev -c VpcId=<VPC ID> -c Domain=<R53 hosted zone> --force`
 
